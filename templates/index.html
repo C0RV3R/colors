@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color the Site with Your Thoughts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Color the Site with Your Thoughts!</h1>
+    </header>
+    
+    <main>
+        <textarea id="userInput" placeholder="Share your thoughts here..."></textarea><br>
+        <button id="submitBtn">Submit</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 All rights reserved</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
